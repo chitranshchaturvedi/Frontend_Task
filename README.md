@@ -31,21 +31,15 @@ This full-stack rental property management application was built using React, No
    git clone https://github.com/chitranshchaturvedi/Frontend_task
 Install the dependencies:
 
-bash
-Copy code
 cd rental-app
 npm install
 Set up the backend server (assuming you have already set up the Node.js, Express, and MongoDB backend):
 
-bash
-Copy code
 cd backend
 npm install
 npm start
 Start the React frontend:
 
-bash
-Copy code
 cd frontend
 npm start
 Open http://localhost:3000 to view the application in the browser.
@@ -70,7 +64,3 @@ Open a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-csharp
-Copy code
-
-This README provides an overview of the app, including setup instructions, routes, and features.
