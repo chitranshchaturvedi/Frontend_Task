@@ -12,17 +12,17 @@ This full-stack rental property management application was built using React, No
 
 ## Pages & Routes
 
-The HomePage (/) displays general information and listings of trips available for users to browse.
-The RegisterPage (/register) allows new users to sign up and create an account.
-The LoginPage (/login) is where existing users can log in to access their accounts.
-The CreateListing page (/create-listing) lets users create a new property listing or trip by providing necessary details.
-The ListingDetails page (/properties/:listingId) displays specific information about a particular property or trip using its unique ID.
-The CategoryPage (/properties/category/:category) shows listings filtered based on a specific category like type, location, or other criteria.
-The SearchPage (/properties/search/:search) is where users can view search results for properties or trips based on their input.
-The TripList (/:userId/trips) displays a list of all the trips created or joined by a specific user.
-The WishList (/:userId/wishList) allows users to view the list of properties they have saved or marked for future reference.
-The PropertyList (/:userId/properties) shows all the properties or trips owned or listed by the user.
-The ReservationList (/:userId/reservations) displays reservations made by the user for any properties or trips.
+- The HomePage (/) displays general information and listings of trips available for users to browse.
+- The RegisterPage (/register) allows new users to sign up and create an account.
+- The LoginPage (/login) is where existing users can log in to access their accounts.
+- The CreateListing page (/create-listing) lets users create a new property listing or trip by providing necessary details.
+- The ListingDetails page (/properties/:listingId) displays specific information about a particular property or trip using its unique ID.
+- The CategoryPage (/properties/category/:category) shows listings filtered based on a specific category like type, location, or other criteria.
+- The SearchPage (/properties/search/:search) is where users can view search results for properties or trips based on their input.
+- The TripList (/:userId/trips) displays a list of all the trips created or joined by a specific user.
+- The WishList (/:userId/wishList) allows users to view the list of properties they have saved or marked for future reference.
+- The PropertyList (/:userId/properties) shows all the properties or trips owned or listed by the user.
+- The ReservationList (/:userId/reservations) displays reservations made by the user for any properties or trips.
 
 ## Installation
 
