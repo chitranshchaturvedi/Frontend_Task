@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Rental Property Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This full-stack rental property management application was built using React, Node.js, Express, and MongoDB (MERN stack). The app allows users to list properties for rent, browse listings by categories, and manage trips, reservations, and wishlists.
 
-## Available Scripts
+## Features
+- User registration and login
+- Create and manage property listings
+- Browse and search for properties by categories and keywords
+- View detailed property information
+- Manage trips, wishlists, and reservations
+- Responsive design with a clean and user-friendly interface
 
-In the project directory, you can run:
+## Pages & Routes
 
-### `npm start`
+The HomePage (/) displays general information and listings of trips available for users to browse.
+The RegisterPage (/register) allows new users to sign up and create an account.
+The LoginPage (/login) is where existing users can log in to access their accounts.
+The CreateListing page (/create-listing) lets users create a new property listing or trip by providing necessary details.
+The ListingDetails page (/properties/:listingId) displays specific information about a particular property or trip using its unique ID.
+The CategoryPage (/properties/category/:category) shows listings filtered based on a specific category like type, location, or other criteria.
+The SearchPage (/properties/search/:search) is where users can view search results for properties or trips based on their input.
+The TripList (/:userId/trips) displays a list of all the trips created or joined by a specific user.
+The WishList (/:userId/wishList) allows users to view the list of properties they have saved or marked for future reference.
+The PropertyList (/:userId/properties) shows all the properties or trips owned or listed by the user.
+The ReservationList (/:userId/reservations) displays reservations made by the user for any properties or trips.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/chitranshchaturvedi/Frontend_task
+Install the dependencies:
 
-### `npm test`
+bash
+Copy code
+cd rental-app
+npm install
+Set up the backend server (assuming you have already set up the Node.js, Express, and MongoDB backend):
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+cd backend
+npm install
+npm start
+Start the React frontend:
 
-### `npm run build`
+bash
+Copy code
+cd frontend
+npm start
+Open http://localhost:3000 to view the application in the browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Project Structure
+frontend/: Contains the React frontend code.
+backend/: Contains the Express and MongoDB backend code.
+models/: Mongoose models for the application (e.g., User, Listing).
+routes/: API routes for handling requests to the backend.
+pages/: Contains all the React pages such as HomePage, RegisterPage, LoginPage, etc.
+components/: Reusable components across different pages.
+Technologies Used
+Frontend: React, React Router, Axios, Tailwind CSS
+Backend: Node.js, Express, MongoDB, Mongoose
+Other: React Toastify for notifications, bcrypt for password hashing
+How to Contribute
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes.
+Commit and push your changes (git push origin feature-branch).
+Open a pull request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+csharp
+Copy code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This README provides an overview of the app, including setup instructions, routes, and features.
